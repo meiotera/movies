@@ -57,7 +57,7 @@ app.get('/api/filmes/filmesPopulares', async (req, res) => {
   }
 });
 
-app.get('/api/filmes/meus-filmes', async (req, res) => {
+app.get('/api/filmes/meusFilmes', async (req, res) => {
   try {
     const idsParams = req.query.ids;
 
