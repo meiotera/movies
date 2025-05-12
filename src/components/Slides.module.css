@@ -1,0 +1,30 @@
+.eachSlideEffect > div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  height: 350px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
+}
+
+.slideContainer {
+  width: 600px;
+  margin: 0 auto;
+
+  grid-column: 1/5;
+}
+
+.eachSlideEffect .span {
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  display: inline-block;
+
+  background-color: orange;
+  font-weight: bold;
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 60vh;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px;
+}
+
+.assistidos h2,
+.porAssistir h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 1.2rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+
+.msg {
+  text-align: center;
+  font-weight: bold;
+  color: orange;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .assistidos h2,
+  .porAssistir h2 {
+    font-size: 1.5rem;
+  }
+
+  .assistidos > *,
+  .porAssistir > * {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+}

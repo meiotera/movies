@@ -1,0 +1,16 @@
+.logo {
+  background-color: orange;
+  border-radius: 0 50% 0;
+  padding: 10px 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.play {
+  background-color: red;
+  clip-path: polygon(100% 50%, 32% 0, 33% 100%);
+  width: 55px;
+  height: 40px;
+}
