@@ -18,7 +18,7 @@ const MeusFilmes = () => {
 
     async function getFilmes() {
       setLoadingAssistidos(true);
-      const response = await fetch(`/api/filmes/meus-filmes?ids=${querys}`);
+      const response = await fetch(`/api/filmes/meusFilmes?ids=${querys}`);
       const data = await response.json();
 
       setFilmesAssistidos(data);
@@ -38,7 +38,7 @@ const MeusFilmes = () => {
 
     async function getFilmes() {
       setLoadingPorAssistir(true);
-      const response = await fetch(`/api/filmes/meus-filmes?ids=${querys}`);
+      const response = await fetch(`/api/filmes/meusFilmes?ids=${querys}`);
       const data = await response.json();
 
       setPorAssistir(data);
