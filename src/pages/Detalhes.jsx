@@ -13,8 +13,12 @@ const Detalhes = () => {
     async function getDetalhes() {
       setLoading(true);
       try {
-        const response = await fetch(`/api/filmes/detalhes/${id}`);
+        //const response = await fetch(`/api/filmes/detalhes/${id}`);
+        const response = await fetch(`/api/filmes/${id}`);
         const data = await response.json();
+
+        console.log(data);
+
         setFilmeDetalhes(data);
       } catch (error) {
         console.error('Erro ao buscar detalhes do filme:', error);
