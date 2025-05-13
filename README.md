@@ -4,7 +4,7 @@ Um aplicativo web que permite aos usuários explorar um catálogo de filmes, mar
 
 ## [Visite o projeto](https://movies-ochre-gamma.vercel.app/)
 
-- [inkedin](https://www.linkedin.com/in/renan-ferreira-desenvolvedor/)
+- [linkedin](https://www.linkedin.com/in/renan-ferreira-desenvolvedor/)
 
 ## 📸 Preview
 
