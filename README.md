@@ -1,12 +1,43 @@
-# React + Vite
+# 🎬 Catálogo de Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um aplicativo web que permite aos usuários explorar um catálogo de filmes, marcar filmes como "quero assistir" ou "assistido", visualizar detalhes e realizar buscas. Desenvolvido com **React**, usando **Context API**, **React Router**, e ícones com **React Icons**.
 
-Currently, two official plugins are available:
+## [Visite o projeto](https://movies-ochre-gamma.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [inkedin](https://www.linkedin.com/in/renan-ferreira-desenvolvedor/)
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Preview do app](./public/meusfilmes.png)
+![home](./public/home.png)
+![detalhes](./public/detalhes.png)
+
+## 🚀 Funcionalidades
+
+- 🎞️ Listagem de filmes com cards responsivos
+- 🔍 Busca por nome do filme
+- ⭐ Marcar filmes como "Quero Assistir"
+- ✅ Marcar como "Assistido"
+- 📄 Ver detalhes do filme (rota `/detalhes/:id`)
+- ⏭️ Paginação para navegar entre as páginas de filmes
+- 📱 Responsivo para telas pequenas (mobile-friendly)
+
+## 🛠️ Tecnologias utilizadas
+
+- [React](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [Context API](https://reactjs.org/docs/context.html)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- CSS Modules
+
+## 📦 API de Filmes
+
+Os dados são obtidos a partir da API do TMDB
+
+## ✨ Melhorias futuras
+
+- Implementar autenticação de usuários
+- Salvar dados em um backend (ex: Firebase, MongoDB)
+- Adicionar favoritos
+
+## [Visite o projeto](https://movies-ochre-gamma.vercel.app/)

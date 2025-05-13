@@ -9,7 +9,7 @@
 }
 
 .card:hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
 }
 
 .imagemContainer {
@@ -63,4 +63,31 @@
 .paraAssistir {
   color: rgb(255, 162, 0);
   opacity: 0.6;
+}
+@media (max-width: 500px) {
+  .card {
+    width: 90%; /* usa quase toda a largura da tela */
+    margin: 20px auto; /* centraliza horizontalmente e dá espaçamento entre cards */
+    height: auto; /* ajusta altura conforme o conteúdo */
+  }
+
+  .imagemContainer {
+    height: 200px; /* reduz altura da imagem para celulares */
+  }
+
+  .imagemContainer img {
+    object-fit: cover; /* mantém proporção boa */
+  }
+
+  .btnContainer {
+    flex-direction: row; /* mantém os botões em linha */
+    justify-content: space-evenly;
+    font-size: 1.2rem; /* diminui um pouco o tamanho dos ícones */
+    padding: 8px 0;
+  }
+
+  .title {
+    font-size: 1rem; /* ajusta o tamanho do texto do título */
+    padding: 10px;
+  }
 }
